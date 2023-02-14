@@ -1,7 +1,7 @@
 name: First Workflow
 on: [push, workflow_dispatch]
 jobs:
-  first-workflow:
+  first-action:
     runs-on: ubuntu-latest
     steps:
       - name: Get code
